@@ -1,0 +1,32 @@
+.a1{
+    font-size:200px;
+    width:1350px;
+    height:350px;
+    background-color:black;
+    color:black;
+}
+.a2{
+    font-size:25px;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:25px;
+    
+}
+.a3{
+    font-size:16px;
+    margin-left:140px;
+    margin-right:100px;
+}
+.a4{
+    font-size:16px;
+    margin-left:470px;
+    margin-right:100px;
+    margin-bottom:30px;
+}
+.a5{
+    font-size:16px;
+    margin-left:630px;
+    margin-right:665px;
+    color:black;
+    
+}

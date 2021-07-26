@@ -1,0 +1,70 @@
+<app-nav1></app-nav1>
+  <div class="bckimg1">
+      <div style="padding-bottom:115px;"></div>
+      <div class="b1">
+          <strong>Log into your Royal Enfield Account</strong>
+      </div>
+      <div  class="container" class="b2" style="margin-top:20px">
+        <div  style="padding:20px">
+            <form [formGroup]="logform" (ngSubmit)="submit(logform.value)" >
+                <div class="row">
+                    <div class="col-md-4" >
+                        <input type="text" formControlName="uname"  class="form-control" placeholder="username">
+                    </div>
+                    <div class="col-md-4" >
+                        <input type="password" formControlName="pwd"  class="form-control" placeholder="password">
+                    </div></div>
+                <br>
+                    <div class="row">
+                    <div class="col-md-4">
+                    <input type="submit" class="btn btn-white" value="Login" class="form-control">
+                    </div>
+                    <div class="col-md-4" class="b3">
+                    Forget password?
+                    
+                    </div>
+                    </div>
+                    </form>
+                    </div>
+                    </div>
+                    <div class="b4">
+                        <strong>New to Royal Enfield.com?</strong>
+                    </div>
+                    <div  class="container"  class="b6" style="margin-top:20px">
+                        <div  style="padding:20px">
+                            <form [formGroup]="logform" (ngSubmit)="submit(logform)" >
+                                <div class="row">
+                                    <div class="col-md-8"  class="b5">
+                                        <input type="submit"   class="btn btn-primary"  value=" create an account > ">
+                                    </div></div></form></div></div>
+                                    
+                                        
+                                            <div class="b7"><strong>OR Sign in via</strong></div>
+                                            <div  class="container"  class="b6" style="margin-top:20px">
+                                                <div  style="padding:20px">
+                                                    <form [formGroup]="logform" (ngSubmit)="submit(logform)" >
+                                        <div class="row">
+                                    <div class="col-md-4"  >
+                                        <input type="submit" class="btn btn-primary"  value="Sign in with Facebook >">
+                                    </div>
+                                
+                                    
+                                    <div class="col-md-4">
+                                    <input type="submit" class="btn btn-danger" value="Sign in with Google >" >
+                                    </div>
+                                    <div class="col-md-4" >
+                                        <input type="submit" class="btn btn-primary" value="Sign in with twitter >" >
+                                    
+                                    </div>
+                                    </div>
+                                    </form>
+                                    </div>
+                                    </div>
+                                    
+                    
+                </div>
+                    
+                    
+                     
+                
+  

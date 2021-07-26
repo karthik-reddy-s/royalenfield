@@ -1,0 +1,46 @@
+.bckimg1{
+    background-image:url("src/assets/image18.png");
+    background-size:100%;
+    background-attachment:scroll;
+}
+.b1{
+    font-size:40px;
+    font-style:bold;
+    text-align:center;
+    
+    color:white;
+}
+.b2{
+    font-size:40px;
+    font-style:bold;
+    text-align:center;
+    margin-top:25px;
+    margin-left:300px;
+}
+.b3{
+    font-size:15px;
+    margin-left:20px;
+    color:white;
+}    
+.b4{
+    font-size:30px;
+    font-style:bold;
+    text-align:center;
+    margin-top:20px;
+    color:white;
+}
+.b5{
+    margin-left:390px;
+}
+.b6{
+    margin-left:250px;
+}
+.b7{
+    font-size:30px;
+    font-style:bold;
+    text-align:center;
+    margin-top:20px;
+    color:white;
+    margin-left:100px;
+    
+}
